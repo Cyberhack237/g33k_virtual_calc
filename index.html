@@ -1,0 +1,65 @@
+<!--
+
+ ███▄    █  ▄████▄  
+ ██ ▀█   █ ▒██▀ ▀█  
+▓██  ▀█ ██▒▒▓█    ▄ The Calculator
+▓██▒  ▐▌██▒▒▓▓▄ ▄██▒JavaScript and Html/css
+▒██░   ▓██░▒ ▓███▀ ░
+░ ▒░   ▒ ▒ ░ ░▒ ▒  ░
+░ ░░   ░ ▒░  ░  ▒   
+   ░   ░ ░ ░        
+         ░ ░ ░      
+           ░        
+  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="scripts/app.js"></script>
+	<title>Calculatrice</title>
+</head>
+
+<body>
+	<h1>Calculatrice</h1>
+	<div class="container">
+		<div class="calc">
+			<h3>N30-G33k-Calculator</h3>
+
+			<input type="text" name="" maxlength="3" class="afficher" Value="" onchange="limitLenght()" readonly />
+
+			<div class="keys">
+				<input type="button" name="" class="key one" value="1" onclick="keys(1)" />
+				<input type="button" name="" class="key two" value="2" onclick="keys(2)" />
+				<input type="button" name="" class="key tree" value="3" onclick="keys(3)" />
+				<input type="button" name="" class="key four" value="4" onclick="keys(4)" />
+				<input type="button" name="" class="key five" value="5" onclick="keys(5)" />
+				<input type="button" name="" class="key six" value="6" onclick="keys(6)" />
+				<input type="button" name="" class="key seven" value="7" onclick="keys(7)" />
+				<input type="button" name="" class="key eigh" value="8" onclick="keys(8)" />
+				<input type="button" name="" class="key nine" value="9" onclick="keys(9)" />
+				<input type="button" name="" class="key zero" value="0" onclick="keys(0)" />
+				<!--Les operateur utiliser -->
+
+				<input type="button" name="" class="oper" value="*" onclick="keys('*')" />
+				<input type="button" name="" class="oper" value="-" onclick="keys('-')" />
+				<input type="button" onclick="keys('+')" class="oper" value="+" />
+				<input type="button" name="" class="oper" value="/" onclick="keys('/')" />
+
+
+				<input type="button" name="" class="equal" value="=" onclick="resultat()" />
+				<!--Signe Egale -->
+				<input type="button" name="" class="keyss" value="." onclick="keys('.')" />
+				<input type="button" name="" class="keyss sqr" value="√" onclick="sqr()" />
+				<input type="button" name="" class="keyss exp" value="n²" onclick="exp()" />
+				<input type="button" name="" class="keyss" value="C" onclick="clearAfficher()" />
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
