@@ -7,6 +7,11 @@ ___
 veuillez tout simple cloner ce répository, faire des modifications et comiter dans les nouvelles branch
 la branche appeler [code_review]
 
+### Exemple de l'app
+!["exemple du calc"](ressoures/screenShot.png);
+____
+@Othor : N30-geek | Email: dryikobu967@protonmail.com
+
 
 
 
